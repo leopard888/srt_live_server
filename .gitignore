@@ -20,4 +20,5 @@ gradlew.bat
 *.pm
 *.go.swo
 *.go.swp
+.vscode*
 logs/
