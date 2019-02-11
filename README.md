@@ -1,7 +1,7 @@
 # srt_live_server
 live server based on srt protocal<br/>
 srt_live_server是基于SRT传输协议的直播服务，支持mpegts格式的推流，拉流。<br/>
-当前ffmpeg4.1版本以上已经支持srt协议，可以用ffmpeg/ffmpeg进行测试验证。
+当前ffmpeg4.1版本以上已经支持srt协议，可以用ffmpeg/ffplay进行测试验证。
 
 ## 1. 编译简介
 ### 1.1 编译libsrt库
@@ -29,8 +29,8 @@ srt_live_server是基于SRT传输协议的直播服务，支持mpegts格式的�
 ## 3. 使用简介
 ### 3.1 客户端请使用ffmpeg/ffplay
 * ffmpeg编译时，请加入选项--enable-libsrt
-* ffplay编译时，请加入--enable-sdl
 * ffplay编译前需要有libsdl2.0，请下载，并编译[SDL2.0](http://www.libsdl.org/release/SDL2-2.0.9.tar.gz)
+* ffplay编译时，请加入--enable-sdl
 
 ### 3.2 推流
 输入命令行: <br/>
